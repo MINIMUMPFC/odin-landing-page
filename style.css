@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .navbar-container,
@@ -23,6 +24,11 @@ body {
     color: #F9FAF8;
 }
 
+.hero-text-main,
+.info-header {
+    font-weight: 800;
+}
+
 .navbar-links a,
 .hero-text-sub {
     color: #E5E7EB;
@@ -32,6 +38,12 @@ body {
 .hero-button button,
 .cta-modal {
         background-color: #3882F6;
+}
+
+.info-header,
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
 }
 
 /* Navigation Bar CSS */
@@ -82,7 +94,6 @@ body {
 
 .hero-text-main {
     font-size: 48px;
-    font-weight: 800;
 }
 
 .hero-button button {
@@ -101,4 +112,39 @@ body {
     width: auto;
     background-color: slategray;
     color: #E5E7EB;
+}
+
+/* Info Section CSS */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 64px;
+    margin-bottom: 64px;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    text-align: center;
+}
+
+.info-card-img {
+    width: 160px;
+    height: 160px;
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 30px;
 }
