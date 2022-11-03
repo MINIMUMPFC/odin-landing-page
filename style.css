@@ -7,16 +7,43 @@ body {
     justify-content: space-between;
 }
 
+.navbar-container,
+.hero-container {
+    padding: 0 13%;
+}
+
+.navbar-container,
+.hero-container {
+    background-color: #1F2937;
+}
+
+.navbar-logo,
+.hero-text-main,
+.hero-button button {
+    color: #F9FAF8;
+}
+
+.navbar-links a,
+.hero-text-sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-button button,
+.cta-modal {
+        background-color: #3882F6;
+}
+
+/* Navigation Bar CSS */
+
 .navbar-container {
     display: flex;
     align-items: center;
-    background-color: #1F2937;
-    padding: 8px 13%;
+    
 }
 
 .navbar-logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .navbar-links {
@@ -31,7 +58,47 @@ body {
 
 .navbar-links a {
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
+/* Hero Section CSS */
+
+.hero-container {
+    display: flex;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    gap: 16px;
+}
+
+.hero-content,
+.hero-image {
+    flex: 1;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-button button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color: slategray;
+    color: #E5E7EB;
+}
