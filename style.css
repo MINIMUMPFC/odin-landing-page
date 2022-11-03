@@ -148,3 +148,29 @@ body {
     border-color: #3882F6;
     border-radius: 30px;
 }
+
+/* Quote Section CSS */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 25%;
+}
+
+
+.quote-text {
+    font-weight: 300;
+    width: 830px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 24px;
+    margin-left: auto;
+    font-weight: 800;
+}
+
+
