@@ -15,14 +15,16 @@ body {
 }
 
 .navbar-container,
-.hero-container {
+.hero-container,
+.footer {
     background-color: #1F2937;
 }
 
 .navbar-logo,
 .hero-text-main,
 .hero-button button,
-.cta-modal-button button {
+.cta-modal-button button,
+.footer {
     color: #F9FAF8;
 }
 
@@ -217,4 +219,12 @@ body {
     font-size: 16px;
 }
 
+/* Footer CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
 
