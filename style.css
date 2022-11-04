@@ -9,7 +9,8 @@ body {
 }
 
 .navbar-container,
-.hero-container {
+.hero-container,
+.cta-container {
     padding: 0 20%;
 }
 
@@ -20,8 +21,17 @@ body {
 
 .navbar-logo,
 .hero-text-main,
-.hero-button button {
+.hero-button button,
+.cta-modal-button button {
     color: #F9FAF8;
+}
+
+.hero-button button,
+.cta-modal-button button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .hero-text-main,
@@ -36,7 +46,8 @@ body {
 }
 
 .hero-button button,
-.cta-modal {
+.cta-modal,
+.cta-modal-button button {
         background-color: #3882F6;
 }
 
@@ -96,12 +107,8 @@ body {
     font-size: 48px;
 }
 
-.hero-button button {
-    width: 120px;
-    height: 40px;
-    font-size: 18px;
+.hero-button {
     border-style: none;
-    border-radius: 5px;
 }
 
 .hero-image {
@@ -171,6 +178,43 @@ body {
     font-size: 24px;
     margin-left: auto;
     font-weight: 800;
+}
+
+/* Call-to-Action Section CSS */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cta-modal {
+    display: flex;
+    padding: 64px;
+    align-items: center;
+    gap: 64px;
+    border-radius: 15px;
+}
+
+.cta-modal-button button {
+    margin-left: auto;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+.cta-modal-header,
+.cta-modal-text {
+    color: #F9FAF8;
+}
+
+.cta-modal-header {
+    font-size: 24px;
+}
+
+.cta-modal-text {
+    font-size: 16px;
 }
 
 
